@@ -1,0 +1,43 @@
+/* MatchState AI — Global Styles */
+:root {
+  --bg:      #0a0e1a;
+  --bg2:     #111827;
+  --bg3:     #1a2235;
+  --bg4:     #1e2d45;
+  --accent:  #00d4aa;
+  --accent2: #0099ff;
+  --accent3: #ff6b35;
+  --accent4: #ffd60a;
+  --text:    #e8f4ff;
+  --text2:   #8ba3c0;
+  --text3:   #4a6580;
+  --border:  #1e3a5f;
+  --border2: #2a4a6e;
+  --green:   #00c896;
+  --red:     #ff4757;
+  --orange:  #ff8c00;
+  --blue:    #4da6ff;
+  --font:    'Syne', sans-serif;
+  --mono:    'JetBrains Mono', monospace;
+  --r:  8px;
+  --r2: 12px;
+  --r3: 16px;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--border2); border-radius: 2px; }
+
+a { color: var(--accent); text-decoration: none; }
+
+input, select, button { font-family: var(--font); }
