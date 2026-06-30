@@ -87,17 +87,8 @@ uvicorn main:app --reload
 
 ---
 
-## 📸 Screenshots
 
-### Home
-![Home](screenshots/home.png)
 
-### Prediction
-![Prediction](screenshots/prediction.png)
-
-### Analytics
-![Analytics](screenshots/analytics.png)
-#
 ## 👨‍💻 Author
 
 **Abhimanyu Bathla**
